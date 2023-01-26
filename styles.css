@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title-img {
+    background-image: url("./img/design1_image1.jpg");
+    min-height: 400px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    border-bottom-style: solid;
+    border-width: 50px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.a-link {
+    border: 1px solid black;
+    padding: 10px;
+    text-decoration: none;
+    color: beige;
+    background-color: #58D695;
+    box-shadow: 5px 5px 5px #5A5D5C;
+    border-radius: 4px;
+}
+
+.img-container {
+    width: 300px;
+}
+
+
+.info-img-container {
+    text-decoration: solid blue;
+    margin: 5px;
+    display: block;
+}
+
+.info-container {
+    display: inline-block;
+}
