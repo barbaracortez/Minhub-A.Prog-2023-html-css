@@ -3,14 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     background-color: #EEF2CA;
 }
+
+/* imgdeBanner */
 
 .title-img {
     width: 90%;
     height: 400px;
 }
+
+/* logo */
 
 .logo {
     width: 100px;
@@ -19,6 +24,8 @@ html{
     top: 180px;
     right: 1300px;
 }
+
+/* titulo y caja */
 
 .box-title {
     background-color: black;
@@ -29,6 +36,8 @@ html{
     width: 90%;
 
 }
+
+/* <!-- barra de nav- home-acerca de-contacto- reglas y informacion --> */
 
 .nav-link-container {
     position: relative;
@@ -42,16 +51,22 @@ html{
     padding: 10px;
     text-decoration: none;
     color: beige;
-    background-color:#A9D3AF;
+    background-color: #A9D3AF;
     box-shadow: 2px 2px 2px #5A5D5C;
     border-radius: 2px;
 
 }
+
+/* <!-- cuerpo contenedor --> */
+
 .info-container {
     position: relative;
     left: 220px;
     top: 50px;
 }
+
+/* <!-- img- info-hockey arg --> */
+
 .img-container {
     width: 250;
     height: auto;
@@ -59,9 +74,9 @@ html{
     top: 100px;
     left: 500px
 }
+
 .img-hockey-arg {
     width: 250px;
     height: auto;
 
 }
-
