@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color:#D8E67F;
+    background-color: #E7B9B6;
 }
 
 /* imgdeBanner */
@@ -14,16 +14,10 @@ html {
     width: 90%;
     height: 400px;
 }
-.img-design {
-    width: 300px;
-    height: auto;
-    margin: 20px;
-}
 
-.title-name{
-   text-align: center;
-   margin-top: 50px;
-
+.title-name {
+    text-align: center;
+    margin-top: 50px;
 }
 
 /* logo */
@@ -36,16 +30,21 @@ html {
     right: 1300px;
 }
 
-.logo-img{
-    width: 100px ;
-    height: auto;
-}
 .logo-game-rules {
     width: 150px;
     height: auto;
     position: relative;
-    left:350px;
-    top:-90px;
+    left: 350px;
+    top: -90px;
+
+}
+
+.logo-game-rules-registro {
+    width: 150px;
+    height: auto;
+    position: relative;
+    left: 100px;
+    top: -90px;
 
 }
 
@@ -75,7 +74,7 @@ html {
     padding: 10px;
     text-decoration: none;
     color: beige;
-    background-color: #A9D3AF;
+    background-color: #C86B5B;
     box-shadow: 2px 2px 2px #5A5D5C;
     border-radius: 2px;
     margin-left: 5px;
@@ -84,20 +83,24 @@ html {
 
 .nav-game-rules {
     position: relative;
-    top:-50px;
+    top: -50px;
     margin-left: 50px;
 }
+
 .a-game-rules {
     border: 1px solid #EA9154;
     padding: 10px;
     text-decoration: none;
-    color:black;
+    color: black;
     box-shadow: 1px 1px 1px #5A5D5C;
     border-radius: 3px;
     background-color: #E6CB7F;
-    margin: 5px;;
- 
-    
+    margin: 5px;
+}
+
+.nav-game-registro {
+    display: flex;
+    justify-content: center;
 }
 
 /* <!-- cuerpo contenedor --> */
@@ -108,19 +111,21 @@ html {
     top: 50px;
 }
 
-.main-table-info-conteiner{
+.main-table-info-conteiner {
     position: relative;
     left: 300px;
     top: 50px;
     border-collapse: separate;
 }
+
 .list-conteiner {
     text-align: justify;
     justify-content: center;
     margin: 150px;
     margin-top: 30px;
- 
+
 }
+
 /* <!-- img- info-hockey arg --> */
 
 .img-container {
@@ -136,24 +141,29 @@ html {
     height: auto;
 
 }
-.img-footer{
+
+.img-footer {
     display: flex;
     flex-direction: row;
     margin-top: 100px;
 
 }
+
 .img-games {
     width: 200px;
     margin-top: 60px;
     margin-left: 200px;
 }
+
 .derechos-p {
     text-align: justify;
     justify-content: center;
     position: relative;
-    top:100px;
+    top: 100px;
     margin-left: 200px;
-}/* 
+}
+
+/* 
 tabla de informacion del juego */
 td {
     padding: 4px 32px;
@@ -181,6 +191,44 @@ th {
     text-align: right;
     padding: 0 32px;
 }
-.email-number{
+
+.email-number {
     margin-top: 100px;
+}
+
+.form-input-container {
+    max-width: 1200px;
+    border: 1px solid;
+    border-radius: 16px;
+    padding: 20px 70px 100px;
+    margin: 5.3rem auto;
+    position: relative;
+}
+
+.permission-container {
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.firmas-padres {
+    margin: 50px;
+}
+
+.input-container {
+    text-align: justify;
+    padding: 20px;
+    margin: 1rem 3.3rem 1rem 0px;
+
+}
+
+.maps-conteiner {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.maps-tamaño {
+    width: 200px;
+    height: auto;
 }
