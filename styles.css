@@ -92,7 +92,7 @@ html {
     padding: 10px;
     text-decoration: none;
     color: black;
-    box-shadow: 1px 1px 1px #5A5D5C;
+    box-shadow: 2px 2px 2px #5A5D5C;
     border-radius: 3px;
     background-color: #E6CB7F;
     margin: 5px;
@@ -200,7 +200,7 @@ th {
     max-width: 1200px;
     border: 1px solid;
     border-radius: 16px;
-    padding: 20px 70px 100px;
+    padding: 30px;
     margin: 5.3rem auto;
     position: relative;
 }
@@ -226,9 +226,23 @@ th {
     margin-top: 100px;
     display: flex;
     justify-content: center;
+    
 }
 
 .maps-tamaño {
     width: 200px;
     height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px #5A5D5C;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+}
+
+.genero-grado {
+    display: flex;
+    justify-content: left;
 }
